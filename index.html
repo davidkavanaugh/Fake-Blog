@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Fake Blog</title>
+    <meta name="description" content="A Fake Blog I made for Coding Dojo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- TITLE -->
+    <div class="blog-post">
+      <h1>Rainier is Fancy as Hell</h1>
+      <br />
+
+      <!-- IMAGE -->
+      <img
+        src="images/rainier.jpg"
+        alt="Rainier, the pride of Washington"
+        height="350"
+        width="300"
+      />
+      <br />
+      <p>
+        <a href="https://rainierbeer.com">Rainier</a> Tenetur molestias totam
+        voluptatem placeat. Ut non laboriosam rem omnis sit officia quis rerum.
+        Aut eligendi et omnis alias commodi consequatur corporis. Sunt maiores
+        et quo veritatis placeat ipsum. Tenetur nesciunt reiciendis delectus
+        occaecati.
+      </p>
+      <h2>Fancy Beer Qualifications:</h2>
+      <ul>
+        <li>Makes you want to say its name with a French accent</li>
+        <li>Named after a mountain</li>
+      </ul>
+      <table style="width: 50%">
+        <thead>
+          <tr>
+            <th>Beer Name</th>
+            <th>Fancymeter Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rainier</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Chimay</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Duvel</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Survey:</h3>
+      <form>
+        <label for="favorite-beer">What is your favorite beer?</label><br />
+        <input type="text" id="favorite-beer" name="favorite-beer" /><br />
+        <h4>What's your preference?</h4>
+        <input type="radio" id="ale" name="beer-type" value="ale" />
+        <label for="ale">Ale</label><br />
+
+        <input type="radio" id="lager" name="beer-type" value="lager" />
+        <label for="lager">Lager</label><br />
+
+        <input type="radio" id="other" name="beer-type" value="other" />
+        <label for="other">Other</label><br />
+        <h4>What are your favorite regions?</h4>
+        <input type="checkbox" id="belgian" name="belgian" value="belgian" />
+        <label for="belgian"> I like Belgian beer</label><br />
+        <input type="checkbox" id="english" name="english" value="english" />
+        <label for="english"> I like English beer</label><br />
+        <input type="checkbox" id="american" name="american" value="american" />
+        <label for="american"> I like American beers</label><br />
+
+        <label for="select">Ipsum:</label><br />
+        <select name="select" id="select">
+          <option value="beer1">Beer1</option>
+          <option value="beer2">Beer2</option>
+          <option value="beer3">Beer3</option></select
+        ><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
